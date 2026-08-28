@@ -28,8 +28,7 @@ jobs:
       - name: Buka file ZIP proyek
         run: |
           mkdir android-project
-          unzip -o PRILY_TOYS_KASIR_V43_REVISI_NOTA_LENGKAP.zip -d android-project
-
+          unzip -o PRILY_TOYS_KASIR_V44_NOTA_76MM.zip -d android-project
       - name: Buat Gradle Wrapper
         working-directory: android-project
         run: gradle wrapper --gradle-version 8.7
